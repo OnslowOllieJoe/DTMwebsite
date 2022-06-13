@@ -1,1 +1,42 @@
+.container {
+    display: grid;
+    grid-template-rows: auto;
+    grid-template-areas: "logo"
+                        "header"
+                        "arrow"
+                        "strip"
+                        "image"
+                        "footer";
+	background-color: #fff;
+}
 
+
+.logo {
+    grid-area: logo;
+    background-color: #0000ff;
+    margin: auto;
+}
+
+.arrow {
+    grid-area: arrow;
+    background-color: #ff0000;
+    margin: auto;
+}
+
+.strip {
+    grid-area: strip;
+    background-color: #00ff00;
+    margin: auto;
+}
+
+.body {
+    grid-area: image;
+    background-color: #000000;
+    margin: auto;
+}
+
+.footer {
+    grid-area: footer;
+    background-color: #00527A;
+    margin: auto;
+}
