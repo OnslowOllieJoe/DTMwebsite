@@ -17,6 +17,8 @@
     margin-left: 2.5%;
     height: 100%;
     width: 100%;
+    border-style: none none solid none;
+    border-color: #D2F898;
 }
 
 .logo>img {
@@ -38,7 +40,6 @@
     margin: auto;
     height: 50px;
     width: 50px;
-   
 }
 
 .arrow>img {
@@ -48,7 +49,7 @@
 
 .strip {
     grid-area: strip;
-    background-color: #00ff00;
+    background-color: #2f2f2f;
     text-align: center;
     width: 100%;
     margin-top: 1.5%;
@@ -70,7 +71,7 @@
 
 .footer {
     grid-area: footer;
-    background-color: #00527A;
+    background-color: #2f2f2f;
     text-align: center;
     bottom: 0;
     margin-top: 5%;
