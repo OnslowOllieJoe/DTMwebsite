@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&display=swap');
 .container {
     display: grid;
     grid-template-rows: auto;
@@ -13,12 +14,14 @@
 
 body {
     overflow-x: hidden;
+    font-family: 'Kdam Thmor Pro', sans-serif;
 }
 
 .logo {
     grid-area: logo;
     height: auto;
     margin-bottom: -10%;
+    font-family: Kdam Thmor Pro;
 }
 
 #fireman {
@@ -33,14 +36,12 @@ body {
 .header {
     grid-area: header;
     margin: auto;
-    background-color: #f0ff0f;
-    /*margin-top: -6%;*/
-    margin-bottom: 21.5%;
+    margin-bottom: 15%;
+    font-size: 200%;
 }
 
 .arrow {
     grid-area: arrow;
-    background-color: #ff0000;
     margin: auto;
     height: 50px;
     width: 50px;
@@ -59,6 +60,11 @@ body {
     margin-top: 1.5%;
     padding-top: 2.5%;
     padding-bottom: 2.5%;
+}
+
+.strip>a {
+    color: #fff;
+    font-size: 28px;
 }
 
 .main {
