@@ -82,10 +82,24 @@ body {
 .footer {
     grid-area: footer;
     background-color: #2f2f2f;
+    color: #FFF;
     text-align: center;
     bottom: 0;
     margin-top: 5%;
+    padding-bottom: 2%;
     width: 100%;
-    padding-top: 2.5%;
-    padding-bottom: 2.5%;
+    text-decoration: none;
+}
+
+.footer>p {
+    font-size: 250%;
+}
+
+.footer a{
+    text-decoration: none;
+    color: #FFF;
+    font-size: 100%;
+    letter-spacing: 1.35px;
+    text-decoration: none;
+    padding: 1.5%;
 }
