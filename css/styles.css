@@ -56,7 +56,9 @@ body {
 
 .arrow>button {
     height: 50px;
-    width: 60px;    
+    width: 60px;
+    border: none;
+    background-color: #fff;
 }
 
 .strip {
