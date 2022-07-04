@@ -1,12 +1,22 @@
 <!DOCTYPE hmtl>
 <html lang="en">
-	<head>
-		<meta charset="utf-8">
+	<meta>
+		<!-- <meta charset="utf-8"> -->
 		<title>LandingPage</title>
-		<meta name="description" content="...">
-		<link href="css/styles.css" rel="stylesheet">
+		<meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+		<script src="jquery-2.1.4.js"></script>
+		<link rel="stylesheet" type="text/css" href="css/styles.css" />
 	</head>
 	<body>
+		<div class="loader-wrapper">
+			<span class="loader"><span class="loader-inner"></span></span>
+		</div>
+
+		<script>
+			$(window).on("load", function(){
+				$(".load-wrapper").fadeout("slow");
+			});
+		</script>
 
 		<div class="container"> <!--Container section starts here-->
 
