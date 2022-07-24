@@ -8,15 +8,6 @@
 		<link rel="stylesheet" type="text/css" href="css/styles.css" />
 	</head>
 	<body>
-		<div class="loader-wrapper">
-			<span class="loader"><span class="loader-inner"></span></span>
-		</div>
-
-		<script>
-			$(window).on("load", function(){
-				$(".load-wrapper").fadeout("slow");
-			});
-		</script>
 
 		<div class="container"> <!--Container section starts here-->
 
@@ -46,6 +37,16 @@
 				<a href="fire_safety.html">FIRE SAFETY</a>
 				<a href="about.html">ABOUT</a>
 			</div>
-		</div>	
+		</div>
+
+		<div class="loader-wrapper">
+			<span class="loader"><span class="loader-inner"></span></span>
+		</div>
+
+		<script>
+			$(window).on("load",function(){
+				$(".loader-wrapper").fadeOut("slow");
+			});
+		</script>
 	</body>
 </html>
