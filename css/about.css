@@ -4,6 +4,8 @@
     grid-template-rows: auto;
     grid-template-areas: "logo" "nav"
                         "header" "header"
+                        "topl" "topr"
+                        "botl" "botr"
                         "footer" "footer";
 	background-color: #fff;
     margin: -1%;
