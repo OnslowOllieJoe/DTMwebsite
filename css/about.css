@@ -16,6 +16,39 @@ body {
     font-family: 'Kdam Thmor Pro', sans-serif;
 }
 
+.top {
+    text-align: center;
+}
+
+.bot {
+    text-align: center;
+}
+
+.topl {
+    grid-area: topl;
+    background-color: aqua;
+    display: inline-block;
+    vertical-align: middle;
+}
+.topr {
+    display: inline-block;
+    vertical-align: middle;
+    grid-area: topr;
+    background-color: forestgreen;
+}
+.botl {
+    grid-area: botl;
+    background-color: palegoldenrod;
+    display: inline-block;
+    vertical-align: middle;
+}
+.botr {
+    grid-area: botr;
+    background-color: olive;
+    display: inline-block;
+    vertical-align: middle;
+}
+
 #fireman {
     position: absolute;
     top: 0px;
