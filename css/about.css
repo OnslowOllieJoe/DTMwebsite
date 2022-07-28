@@ -18,6 +18,7 @@ body {
 
 .top {
     text-align: center;
+    background-color: black;
 }
 
 .bot {
@@ -29,12 +30,16 @@ body {
     background-color: aqua;
     display: inline-block;
     vertical-align: middle;
+    padding-left: 23.9%;
+    padding-right: 23.9%;
 }
 .topr {
     display: inline-block;
     vertical-align: middle;
     grid-area: topr;
     background-color: forestgreen;
+    padding-left: 23.9%;
+    padding-right: 23.9%;
 }
 .botl {
     grid-area: botl;
