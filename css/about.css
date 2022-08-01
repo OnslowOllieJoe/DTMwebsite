@@ -33,6 +33,24 @@ body {
 background-color: aqua;
 }
 
+.flex-parent-element {
+    display: flex;
+    width: 100%;
+    max-height: 50%;
+    background-color: navy;
+}
+
+.flex-child-element {
+    flex: 1;
+    /* margin: 10%; */
+    background-color: antiquewhite;
+}
+
+.flex-child-element:first-child {
+/* margin-right: 20%; */
+background-color: aqua;
+}
+
 /* .top {
     text-align: center;
     background-color: #2f2f2f;
