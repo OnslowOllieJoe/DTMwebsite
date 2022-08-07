@@ -24,15 +24,15 @@ body {
 
 .flex-child-element {
     flex: 1;
-    /* margin: 10%; */
     background-color: antiquewhite;
     text-align: center;
 }
 
 .flex-child-element:first-child {
-/* margin-right: 20%; */
-background-color: aqua;
-text-align: center;
+    background-color: aqua;
+    text-align: center;
+    width: auto; 
+    max-height: 100%; 
 }
 
 .flex-parent-element2 {
@@ -44,59 +44,14 @@ text-align: center;
 
 .flex-child-element2 {
     flex: 1;
-    /* margin: 10%; */
     background-color: antiquewhite;
     text-align: center;
 }
 
 .flex-child-element2:first-child {
-/* margin-right: 20%; */
-background-color: aqua;
-text-align: center;
-}
-
-/* .top {
-    text-align: center;
-    background-color: #2f2f2f;
-}
-
-.bot {
-    text-align: center;
-    background-color: #2f2f2f;
-}
-
-.topl {
-    grid-area: topl;
     background-color: aqua;
-    display: inline-block;
-    vertical-align: middle;
-    padding-left: 23.9%;
-    padding-right: 23.94%;
+    text-align: center;
 }
-.topr {
-    display: inline-block;
-    vertical-align: middle;
-    grid-area: topr;
-    background-color: #2f2f2f;
-    padding-left: 23.94%;
-    padding-right: 23.9%;
-}
-.botl {
-    grid-area: botl;
-    background-color: #2f2f2f;
-    display: inline-block;
-    vertical-align: middle;
-    padding-left: 23.9%;
-    padding-right: 29%;
-}
-.botr {
-    grid-area: botr;
-    background-color: olive;
-    display: inline-block;
-    vertical-align: middle;
-    padding-left: 29%;
-    padding-right: 23.9%;
-}*/
 
 #fireman {
     position: absolute;
