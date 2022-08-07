@@ -26,29 +26,33 @@ body {
     flex: 1;
     /* margin: 10%; */
     background-color: antiquewhite;
+    text-align: center;
 }
 
 .flex-child-element:first-child {
 /* margin-right: 20%; */
 background-color: aqua;
+text-align: center;
 }
 
-.flex-parent-element {
+.flex-parent-element2 {
     display: flex;
     width: 100%;
     max-height: 50%;
     background-color: navy;
 }
 
-.flex-child-element {
+.flex-child-element2 {
     flex: 1;
     /* margin: 10%; */
     background-color: antiquewhite;
+    text-align: center;
 }
 
-.flex-child-element:first-child {
+.flex-child-element2:first-child {
 /* margin-right: 20%; */
 background-color: aqua;
+text-align: center;
 }
 
 /* .top {
