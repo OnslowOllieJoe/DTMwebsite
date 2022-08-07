@@ -28,11 +28,14 @@ body {
     text-align: center;
 }
 
+.flex-child-element>img {
+    width: auto; 
+    max-height: 148.2%; 
+}
+
 .flex-child-element:first-child {
     background-color: aqua;
     text-align: center;
-    width: auto; 
-    max-height: 100%; 
 }
 
 .flex-parent-element2 {
