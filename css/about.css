@@ -24,7 +24,8 @@ body {
 
 .flex-child-element {
     flex: 1;
-    background-color: antiquewhite;
+    background-color: #2f2f2f;
+    color: #fff;
     text-align: center;
 }
 
@@ -53,7 +54,8 @@ body {
 }
 
 .flex-child-element2:first-child {
-    background-color: rebeccapurple;
+    background-color: #2f2f2f;
+    color: #fff;
     text-align: center;
 }
 
