@@ -52,7 +52,7 @@ body {
     flex: 1;
     background-color: orangered;
     height: 100%;
-    width: 100%;
+    width: 50%;
     object-fit: contain;
 }
 
@@ -60,6 +60,12 @@ body {
     background-color: #2f2f2f;
     color: #fff;
     text-align: center;
+}
+
+.flex-child-element2>img {
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
 }
 
 #fireman {
