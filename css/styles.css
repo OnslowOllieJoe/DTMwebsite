@@ -39,6 +39,7 @@ body {
     margin: auto;
     margin-bottom: 15%;
     font-size: 200%;
+    margin-top: 20%;
 }
 
 .arrow {
@@ -67,7 +68,7 @@ body {
     background-color: #2f2f2f;
     text-align: center;
     width: 100%;
-    margin-top: 1.5%;
+    margin-top: 6%;
     padding-top: 2.5%;
     padding-bottom: 2.5%;
 }
