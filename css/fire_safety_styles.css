@@ -17,10 +17,16 @@ body {
     font-family: 'Kdam Thmor Pro', sans-serif;
 }
 
+
+.main {
+    grid-area: video;
+}
 .main>img{
+    float: left;
     opacity: 70%;
-    max-height: 500%;
-    max-width: 250%;
+    height: 100%;
+    width: 80%;
+    margin-left: -15%;
 }
 
 .header {
