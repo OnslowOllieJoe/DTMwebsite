@@ -69,13 +69,14 @@ body {
     color: #fff;
 }
 
-#fireman {
+#safety_logo {
     position: absolute;
     top: 0px;
     left: 0px;
-    margin-top: 0.5%;
-    height: 5%;
-    width: 5%;
+    margin-top: -0.5%;
+    margin-left: -2.5%;
+    height: 10%;
+    width: 10%;
 }
 
 .footer {

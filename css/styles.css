@@ -24,13 +24,14 @@ body {
     font-family: Kdam Thmor Pro;
 }
 
-#fireman {
-    margin-left: 2%;
-    margin-top: 2%;
-    height: 30%;
-    width: 30%;
-    border-style: none none solid none;
-    border-color: #D2F898;
+#safety_logo {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    margin-top: -0.5%;
+    margin-left: -2.5%;
+    height: 10%;
+    width: 10%;
 }
 
 .header {
