@@ -19,13 +19,13 @@ body {
 
 .house {
     padding-left: 40%;
-    margin-top: -100%;
+    margin-top: -80%;
     padding-bottom: 10%;
 }
 
 .house>img {
-    height: 160%;
-    width: 120%;
+    height: 100%;
+    width: 100%;
 }
 
 
